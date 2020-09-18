@@ -37,7 +37,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
 @TeleOp(name="Change this", group="Change this")
-//@Disabled
+@Disabled
 public class BasicOpMode_Linear_Template extends LinearOpMode {
 
     // Declare OpMode members.
