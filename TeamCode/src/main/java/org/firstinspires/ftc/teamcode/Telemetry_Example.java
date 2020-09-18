@@ -78,7 +78,7 @@ public class Telemetry_Example extends LinearOpMode {
             leftDrive.setPower(leftPower);
 
             // Show the elapsed game time and wheel power.
-            telemetry.addData("Status", "Run Time: " + runtime.toString());
+            telemetry.addData("Status", "Run  Time: " + runtime.toString());
             telemetry.addData("Current Position", leftDrive.getCurrentPosition());
             telemetry.addData("Motors", "left (%.2f), left again: (%.2f)", leftPower, leftPower);
             telemetry.update();
